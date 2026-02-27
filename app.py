@@ -154,7 +154,7 @@ elif shape_choice == 'Regular Polygon':
 
 elif shape_choice == 'Geographic Map Outline':
     st.sidebar.markdown("**Geographic Map Setup**")
-    st.sidebar.info("Using a pre-programmed irregular shape approximating the map of Ethiopia.")
+    st.sidebar.info("Using a pre-programmed irregular shape approximating real geographic area.")
     shape_inputs['vertices'] =[
         (90, 300), (120, 350), (100, 380), (110, 410), (150, 420), 
         (160, 460), (200, 460), (220, 440), (250, 450), (280, 420), 
